@@ -1,0 +1,57 @@
+  body{
+    background-color: gray;
+  }
+  .progress.active .progress-bar {
+      -webkit-transition: width 2.5s ease;
+      transition: width 2.5s ease;
+  }
+  .progress-bar.bg-transparent{
+    background-color: transparent;
+    border-right: 4px solid black;
+  }
+  .card{
+    width: 25rem;
+  }
+  .card-subtitle{
+    text-align:center;
+  }
+  .cards{
+    display: flex;
+  }
+  #cardResultado{
+    visibility: hidden;
+  }
+  .bg-arcoiris{
+    background: linear-gradient(to right, blue , green, yellow, orange, red);
+  }
+  .final-value{
+    font-weight: bolder;
+    font-size: 500%;
+    color: greenyellow;
+  }
+  .result-text{
+    font-size: 120%;
+    color: darkred;
+    font-weight: bold;
+    border-top: 2px solid rgb(211, 211, 211);
+    display: block;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .titulos-bgverde{
+    background-color:  limegreen;
+    padding: 15px 10px 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .btn.btn-success{
+    margin: 20px auto;
+    display: block;
+    background-color:  limegreen;
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
